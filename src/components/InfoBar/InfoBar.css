@@ -1,0 +1,23 @@
+.infobar {
+    background: var(--primary-color);
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;  
+    border-radius: 10px 10px 0 0 ; 
+}
+
+.infobar img {
+    width: 20px;
+    filter: invert();
+    cursor: pointer;
+}
+.infobar div {
+    display: flex;
+    align-items: center;
+}
+.infobar div h2 {
+    font-size: 0.9rem;
+    color: var(--bg-color-light);
+}

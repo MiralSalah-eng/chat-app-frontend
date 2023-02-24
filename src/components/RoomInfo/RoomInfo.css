@@ -1,0 +1,30 @@
+h1 {
+    margin: 0;
+
+}
+.userBox {
+    background-color: var(--primary-color);
+    margin:  10px 5px;
+    padding: 5px 15px;
+    color: var(--bg-color-light);
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+@media only screen and (max-width : 768px){
+    .roomInfo h1 ,.roomInfo h2 {
+        font-size: 1rem;
+        margin: 0 auto;
+        padding: 5px;
+    }
+
+    .userBox {
+        padding: 4px 8px;
+        font-size: 0.9rem;
+        font-weight: 500;
+
+    }
+    
+}
