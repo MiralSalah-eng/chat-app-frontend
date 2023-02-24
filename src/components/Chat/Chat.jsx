@@ -21,7 +21,7 @@ const Chat = () => {
   const navigate = useNavigate()
   
   const location = useLocation()
-  const socket = io.connect('https://chat-app-server.onrender.com');
+  const socket = io.connect('https://chat-app-server-xkqh.onrender.com/');
 
   const shouldLog = useRef(true)
 
